@@ -42,7 +42,7 @@
 				</a> -->
             </li>
             <li class="active">
-                <a href="/Consultations.html">
+                <a href="/ConsultationForm.html">
                     <i class='bx bxs-message-dots'></i>
                     <span class="text">Medical Consultations</span>
                 </a>
@@ -55,7 +55,7 @@
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="./articles.html">
                     <i class='bx bxs-group'></i>
                     <span class="text">Cancer Articles</span>
                 </a>
@@ -103,84 +103,7 @@
 
         <!-- MAIN -->
         <main>
-            <!--  
-            <div class="head-title">
-                <div class="left">
-                    <h1>Dashboard</h1>
-                    <ul class="breadcrumb">
-                        <li>
-                            <a href="#">Dashboard</a>
-                        </li>
-                        <li><i class='bx bx-chevron-right'></i></li>
-                        <li>
-                            <a class="active" href="./index.html">Home</a>
-                        </li>
-                    </ul>
-                </div>
-                 <a href="#" class="btn-download"> 
-                    <i class='bx bxs-cloud-download'></i>
-                    <span class="text">Download PDF</span>
-                </a>
-            </div>
 
-            <ul class="box-info">
-                <li>
-                    <i class='bx bxs-group'></i>
-                    <span class="text">
-						<h3>30</h3>
-						<p>New Referrals</p>
-					</span>
-                </li>
-                <li>
-                    <i class='bx bxs-group'></i>
-                    <span class="text">
-						<h3>28</h3>
-						<p>Answered referals</p>
-					</span>
-                </li>
-                <li>
-                    <i class='bx bxs-group'></i>
-                    <span class="text">
-						<h3>$58</h3>
-						<p>Total Referals</p>
-					</span>
-                </li>
-            </ul>
-
-
-            <div class="table-data">
-                <div class="order">
-                    <div class="head">
-                        <h3>Referrals</h3>
-                        <i class='bx bx-search'></i>
-                        <i class='bx bx-filter'></i>
-                    </div>
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Patient Name</th>
-                                <th>reason</th>
-                                <th>Status</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>
-
-                                    <p>John Doe</p>
-                                </td>
-                                <td>prostateCancer</td>
-                                <td><span class="status completed">Completed</span></td>
-                            </tr>
-
-
-
-
-                        </tbody>
-                    </table>
-                </div>
-                -->
-            <h1></h1>
             <div class="head-title" style="margin-left: 47rem;">
 
                 <a href="./ConsultationForm.html" class="btn-download">
@@ -192,49 +115,6 @@
                 </a>
             </div>
 
-            <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Open modal for @mdo</button>
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">Open modal for @fat</button>
-             -->
-            <!-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Consultation Form</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
- 
-
-            <form>
-                <div class="row">
-                    <div class="col">
-                        <input type="text" class="form-control" placeholder="First name" aria-label="First name">
-                    </div>
-                    <div class="col">
-                        <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
-                    </div>
-                </div>
-
-                <div class="mb-3">
-                    <label for="message-text" class="col-form-label">Reason for Consultation:</label>
-                    <textarea class="form-control" id="message-text"></textarea>
-                </div>
-
-                <div>
-                    <label for="formFileLg" class="form-label">Upload Image of affected area</label>
-                    <input class="form-control form-control-lg" id="formFileLg" type="file">
-                </div>
-
-            </form>
-             </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Send message</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
- -->
 
             <div class="table-data">
                 <div class="order">
@@ -243,41 +123,63 @@
                         <i class='bx bx-search'></i>
                         <i class='bx bx-filter'></i>
                     </div>
-                    <table>
+                    <table class="table table-hover">
                         <thead>
                             <tr>
-                                <th>No.</th>
-                                <th>Surname</th>
-                                <th>Last Name</th>
-                                <th>Gender</th>
-                                <th>Age</th>
-                                <th>Affected Body Part</th>
-                                <th>Health Facility</th>
-                                <th>Doctor Consulted</th>
+                                <th scope="col"></th>
+                                <th scope="col">Date</th>
+                                <th scope="col">First Name</th>
+                                <th scope="col">Last Name</th>
+                                <th scope="col">Gender</th>
+                                <th scope="col">Age</th>
+                                <th scope="col">Body Part</th>
+                                <!-- <th scope="col">Facility</th> -->
+                                <th scope="col">Doctor Consulted</th>
+                                <th scope="col">Cancer Diagnosis</th>
 
-                                <th>Cancer Diagnosis</th>
-                                <th></th>
+
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td>1.</td>
-                                <td>
-                                    Nakubuya
-                                </td>
+                                <th scope="row">1</th>
+                                <td>19-06-2022</td>
+                                <td>Nakubulya</td>
                                 <td>Jane</td>
                                 <td>Female</td>
-                                <td>21</td>>
+                                <td>21</td>
                                 <td>Breast</td>
-                                <td>Cancer Institute</td>
+                                <!-- <td>UCI</td> -->
+                                <td>Dr.Mugalu Derrick</td>
+                                <td><span class="status pending">Pending</span></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>1-04-2022</td>
+                                <td>Nakubulya</td>
+                                <td>Jane</td>
+                                <td>Female</td>
+                                <td>21</td>
+                                <td>Breast</td>
+                                <!-- <td>Cancer Institute</td> -->
+                                <td>Dr.Mugalu Derrick</td>
+                                <td><span class="status process">Pending</span></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>1-04-2022</td>
+                                <td>Nakubulya</td>
+                                <td>Jane</td>
+                                <td>Female</td>
+                                <td>21</td>
+                                <td>Breast</td>
+                                <!-- <td>Cancer Institute</td> -->
                                 <td>Dr.Mugalu Derrick</td>
                                 <td><span class="status completed">Negative</span></td>
                             </tr>
-
-
-
                         </tbody>
                     </table>
+
                 </div>
             </div>
 
